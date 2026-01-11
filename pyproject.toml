@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "continue_dev_configs"
+version = "0.1.0"
+authors = [{name = "Danilo Silva", email = "contact@danilocgsilva.me"}]
+description = "Facilitates the generation of local configuration yaml for Continue.dev"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+]
+
+[project.scripts]
+# Console script entry points
+continue_dev_configs = "continue_dev_configs.__main__:main"
